@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.containerForm {
+    width: 100%;
+    height: 100vh;
+    /* background-color: aquamarine; */
+    /*
+    * Created with https://www.css-gradient.com
+    * Gradient link: https://www.css-gradient.com/?c1=2ec7ab&c2=45c45d&gt=l&gd=dcl
+    */
+    background: #2EC7AB;
+    background: linear-gradient(90deg, #2EC7AB, #5EDB76);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formInfo {
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    /* position: relative; */
+    display: flex;
+}
+
+.sideBar {
+    width: 120px;
+    height: 540px;
+    position: absolute;
+    top: 12vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iconBar {
+    width: 70%;
+    height: 100%;
+    background-color: #73e488; 
+}
+
+.icon {
+    width: 100%;
+    height: 20%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.iconImg {
+    height: 30px;
+    width: 22px;
+    cursor: pointer;
+}
+
+.mainForm {
+    width: 60%;
+    height: 100%;
+    margin-left: 128px;
+}
+
+.titleForm {
+    width: 100%;
+    height: 14vh;
+    color: #45C45D;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.infoBar {
+    margin-bottom: 12px;
+}
+
+.title {
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.inp {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(38 181 38);
+    border-color: linear-gradient(90deg, #2EC7AB, #5EDB76);
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+.inp input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn {
+    width: 60px;
+    height: 20px;
+    border: none;
+    color: green;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.brand {
+    width: 18%;
+    height: 100%;
+    margin-left: 4px;
+    position: relative;
+}
+
+.brandName {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: rgb(38 181 38);
+    font-family: "Lilita One", sans-serif;
+     font-weight: 400;
+    font-style: normal;
+}
+
+.pmtBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background-color: #73e488;
+    color: white;
+    transition: all 2s ease-in-out;
+    transform: rotate(-90deg);
+    right: -20px;
+    bottom: 120px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.pmtBtn:hover {
+    transform: rotate(0deg);
+    background-color: #30a3a2;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 8px;
+    right: 36px;
+    color: #4b504f;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rightContainer {
+    height: 100vh;
+    width: 20px;
+    background-color: #30a3a2;
+}
+
+/* @media screen and (max-width: 576px) {
+    .sideBar {
+      top: 3vh;
+    }
+  }
+  
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .sideBar {
+      top: 3vh;
+    }
+  }
+  
+  @media screen and (max-width: 769px) {
+    .sideBar {
+      top: 3vh;
+    }
+  } */
