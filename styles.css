@@ -41,7 +41,7 @@ html, body {
     width: 120px;
     height: 540px;
     position: absolute;
-    top: 12vh;
+    top: 13.5vh;
     display: flex;
     justify-content: flex-end;
 }
